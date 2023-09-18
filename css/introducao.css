@@ -1,0 +1,34 @@
+.introducao{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.introducao div h1 {
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+
+.introducao div p {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.introducao div{
+    position: relative;
+}
+
+.detalhe{
+    position: absolute;
+    z-index: -1;
+    top: -30px;
+    left: -35px;
+}
+
+.negrito{
+    font-weight: bold;
+}

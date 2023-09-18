@@ -1,0 +1,43 @@
+.background-footer{
+    background-color: #000000;
+    position: relative;
+}
+
+.detalhe4{
+    position: absolute;
+    top: -70px;
+    right: 1400px;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    padding: 100px 20px 60px 50px;
+    align-items: center;
+}
+
+.footer p{
+    font-size: 1.5rem;
+    line-height: 1.33;
+    color: #cccccc;
+}
+
+.footer span{
+    color: #8f8f8f;
+    font-size: 1.125rem;
+}
+
+.contatos{
+    display: grid;
+    font-size: 2.25rem;
+    color: #ffffff;
+    gap: 20px;
+}
+
+.contatos a{
+    color: white;
+}
+
