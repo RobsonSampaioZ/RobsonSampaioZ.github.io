@@ -116,6 +116,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 100px auto;
     }
     .section-flex{
         display: flex;
@@ -130,5 +131,48 @@
     .faculadde{
         display: flex;
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .section2{
+        gap: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+    }
+    .section-flex{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .faculadde{
+        display: flex;
+        text-align: center;
+    }
+
+    .subtitulo2{
+        font-size: 3rem;
+        color: white;
+    }
+
+    .paragrafo {
+        font-size: 1.30rem;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .cursos{
+      margin: 60px 10px 0px 30px;  
+    }
+}
+
+@media screen and (max-width: 450px){
+    .paragrafo {
+        font-size: 1rem;
+        text-align: center;
+        justify-content: center;
     }
 }

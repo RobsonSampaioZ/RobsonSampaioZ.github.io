@@ -67,3 +67,58 @@
     background: linear-gradient(#b6f829, #67dd0a);
     top: 10px;
 }
+
+@media screen and (max-width:500px){
+    .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .subtitulo{
+        max-width: 100%;
+        margin-bottom: -50px;
+        font-size: 2rem;
+        color: black;
+        word-break: normal;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:400px){
+    .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .subtitulo{
+        max-width: 100%;
+        margin-bottom: -50px;
+        font-size: 2rem;
+        color: black;
+        word-break: normal;
+        text-align: center;
+    }
+
+    .section1-menu p{
+        font-size: 15px;
+        margin: 0px 10px;
+    }
+
+    .section-grid1 p{
+        font-size: 1rem;
+    }
+
+    .section-grid1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .detalhe2{
+        top: 20px;
+        left: 10px;
+    }
+}
+
